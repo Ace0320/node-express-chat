@@ -20,10 +20,18 @@ form input {
   border: 0;
   padding: 10px;
   margin-right: .5%;
-  width: 90%;
+  width: 75%;
 }
 
 form #button {
+  color: #FFF;
+  background: #2D9F0B;
+  border: none;
+  padding: 10px;
+  width: 9%;
+}
+
+form #rename {
   color: #FFF;
   background: #2D9F0B;
   border: none;
@@ -41,9 +49,9 @@ form #button {
   padding: 5px 10px;
 }
 
-#messages li:nth-child(odd) {
+/*#messages li:nth-child(odd) {
   background: #eee;
-}
+}*/
 
 #notifyUser {
   position: fixed;

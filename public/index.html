@@ -2,7 +2,7 @@
 <html lang='en'>
 
 <head>
-  <title>Chat</title>
+  <title id="title">CS Chatroom</title>
   <link rel='stylesheet' href='public/chat.css' />
   <script src="/socket.io/socket.io.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -15,10 +15,12 @@
 
   <div id="notifyUser"></div>
 
+  <br><br>
    <form id="chatform" onsubmit="return(false)">
     <input type="hidden" id="user" value="" />
-    <input id="m" autocomplete="off" placeholder="Type your message here.." /><input
-      type="submit" id="button" value="Send" />
+    <input id="m" autocomplete="off" placeholder="Type your message here.." />
+    <input type="submit" id="button" value="Send" />
+    <input type="button" id="rename" value="Rename"/>
   </form>
 
 </body>
